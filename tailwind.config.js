@@ -6,10 +6,11 @@ export default {
   ],
   theme: {
     extend: {
-      colors:{
-        primary: '#fea928',
-        secodary:'#ed8900',
-      },
+      colors: {
+  primary: '#fea928',
+  secondary: '#ed8900',
+},
+
       container:{
         center:true,
         padding:{
