@@ -59,12 +59,27 @@ const Hero = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2">
               {/* text content section */}
               <div className="flex flex-col justify-center order-2 gap-4 pt-4 text-center sm:pt-0 sm:text-left sm:order-1">
-                <h1 className="text-5xl font-bold sm:text-5xl lg:text-7xl">
-                  {data.title}
-                </h1>
-                <p className="pt-6 text-sm">
-                  {data.description}
-                </p>
+               <h1
+                    data-aos="zoom-out"
+                    data-aos-duration="500"
+                    data-aos-once="true"
+                    className="text-5xl font-bold sm:text-6xl lg:text-7xl"
+                  >
+                    {data.title}
+                  </h1>
+                  <p
+                    data-aos="fade-up"
+                    data-aos-duration="500"
+                    data-aos-delay="100"
+                    className="text-sm"
+                  >
+                    {data.description}
+                  </p>
+                  <div
+                    data-aos="fade-up"
+                    data-aos-duration="500"
+                    data-aos-delay="300"
+                  ></div>
                 <button className="px-4 py-2 text-white duration-200 rounded-full bg-gradient-to-r from-primary to-secondary hover:scale-105">
                   Order Now
                 </button>
