@@ -1,3 +1,5 @@
+This application is E commerce web site.
+
 # React + Vite
 
 
