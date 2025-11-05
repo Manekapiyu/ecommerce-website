@@ -55,7 +55,7 @@ const Navbar = ({ handleOrderPopup }) => {
   return (
     <div className="relative z-40 duration-200 bg-white shadow-md dark:bg-gray-900 dark:text-white">
       {/* upper Navbar */}
-      <div className="py-2 bg-primary/40">
+      <div className="py-2 bg-primary/60">
         <div className="container flex items-center justify-between">
           <div>
             <a href="#" className="flex gap-2 text-2xl font-bold sm:text-3xl">
